@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
 
 ul {
@@ -12,7 +12,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+    background-color: rgb(209, 160, 160)
+    ;
 }
 
 li {
@@ -23,6 +25,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -38,8 +41,21 @@ li a:hover {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
   font-size: 35px;
 }
+
+/* Style h2 */
+.h2
+grid-area: middle;
+background-color: white;
+padding: 30px;
+text-align: center;
+font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+font-style: didot; 
+font-size: 35px;
+}
+
 
 /* The grid container */
 .grid-container {
@@ -51,16 +67,10 @@ li a:hover {
   /* grid-column-gap: 10px; - if you want gap between the columns */
 } 
 
-.left,
-.middle,
-.right {
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
 /* Style the left column */
 .left {
   grid-area: left;
+  background-color: white; 
 }
 
 /* Style the middle column */
