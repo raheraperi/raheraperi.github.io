@@ -1,26 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    color:black; 
-    font: normal 40px Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman;
-    line-height: 1.6em; 
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
 
-.heading {
-    background-color:pink
-    font-family:
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+    background-color: rgb(209, 160, 160)
+    ;
 }
 
-h1 {
-    color:
+li {
+    float: left;
 }
 
-h2 {
-    color: 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-h3 {
-    color:
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: pink;
 }
 
-p {
-    color: 
+/* Style the header */
+.header {
+  grid-area: header;
+  background-image: url("header_photo.jpg");
+  background-repeat: no-repeat;
+  padding: 30px;
+  text-align: center;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+  font-size: 60px;
 }
