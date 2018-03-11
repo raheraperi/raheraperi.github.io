@@ -38,10 +38,11 @@ li a:hover {
 /* Style the header */
 .header {
   grid-area: header;
-  background-color: #f1f1f1;
+  background-image: url("header_photo.jpg");
+  background-repeat: no-repeat;
   padding: 30px;
   text-align: center;
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-  font-size: 35px;
+  font-size: 60px;
 }
 
