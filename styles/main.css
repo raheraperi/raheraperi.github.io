@@ -1,4 +1,11 @@
 
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 body {
     background-color: pink;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
@@ -15,6 +22,7 @@ hr { width:100%; height:5px; background: white;
 h1, h2, h3 {
     color: white; 
     font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+
     
 }
 
