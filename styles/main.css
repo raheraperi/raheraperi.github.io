@@ -1,32 +1,23 @@
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
+body {
+    color: red; 
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
-/* The navbar container */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+h1, h2 {
+    color: pink; 
+    font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
 
-li {
-    float: left;
+h3 {
+    color: pink; 
+    font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+
+}
+a {
+    color: blue; 
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+p {
+    background: #666;
+    color: white; 
+    padding: 20px 10px; 
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-
