@@ -6,14 +6,24 @@ body {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
 
+/* Style the header */
+.header {
+    grid-area: header;
+    background-image: url("header_photo.jpg");
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+    font-size: 60px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-    background-color: rgb(209, 160, 160)
-    ;
+    background-color: rgb(209, 160, 160);
 }
 
 li {
@@ -34,13 +44,3 @@ li a:hover {
     background-color: pink;
 }
 
-/* Style the header */
-.header {
-  grid-area: header;
-  background-image: url("header_photo.jpg");
-  background-repeat: no-repeat;
-  padding: 30px;
-  text-align: center;
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-  font-size: 60px;
-}
