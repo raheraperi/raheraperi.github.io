@@ -1,29 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-}
-
-/* Style the header */
 .header {
-    grid-area: header;
-    background-image: url("header_photo.jpg");
-    background-repeat: no-repeat;
-    padding: 30px;
+    background-color: #F1F1F1;
     text-align: center;
-    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-    font-size: 60px;
+    padding: 20px;
 }
-
+/* The navbar container */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-    background-color: rgb(209, 160, 160);
+    background-color: #333;
 }
 
 li {
@@ -34,13 +20,13 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
     padding: 14px 16px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: pink;
+    background-color: #111;
 }
+
 
