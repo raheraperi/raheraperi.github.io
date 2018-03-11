@@ -2,6 +2,11 @@ body {
     color: red; 
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
+
+head {
+    color: red; 
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+}
 h1, h2 {
     color: pink; 
     font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
