@@ -1,5 +1,6 @@
+
 body {
-    color: red; 
+    background-color: pink;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
 
@@ -15,8 +16,8 @@ h1, h2 {
 h3 {
     color: pink; 
     font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-
 }
+
 a {
     color: blue; 
 }
