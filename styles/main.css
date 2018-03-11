@@ -6,40 +6,43 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
 body {
-    background-color: pink;
+    background-color: white;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+    padding: 10px;
 }
 
-head {
-    color: red; 
+/* Header/Blog Title */
+header {
+    padding:30px;
+    text-align: center;
+    color: pink; 
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+    font-size: 30px;
+    font-weight: bold; 
+    width: 95%;
+    border: 8px solid pink;
+    padding: 25px;
+    margin: 25px;
+    }
+
+.header h1 {
+    font-size: 40px
 }
 
-hr { width:100%; height:5px; background: white; 
-}
+/* Style the top navigation bar */
 
-h1, h2, h3 {
-    color: white; 
-    font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-
-    
-}
-
-ul{
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    list-style-type: none; 
     background-image: url(https://lh3.googleusercontent.com/mAKyy-43LZ5k7zulEH9uZGBk21x1CDp4iKYVgyoRkJnU-IeDFpRLlL--fg-dIGzOXtc7wBKd6lCj3Yoi_2K0UXNcfRsfMU9DhK4RIbhoDzMH9fCpuydBHTNbhG0a9sB_SVHsGkrV5g=w2400);
-    padding: 40px;
-    text-align: center;
-    font-size: 20px;
 }
 
 li {
-    display: inline;
-    margin: 15px 30 px; 
+    float: left;
 }
 
 li a {
@@ -49,14 +52,52 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-a {
-    color: white; 
-}
+
+/* Change color on hover */
+
 li a:hover {
-    background-color: rgb(199, 101, 101);
+    background-color: pink; 
+}
+
+li a:hover:not(.active) {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+h1, h2, h3 {
+    color: pink; 
+    font-weight: bold; 
+    font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
+}
+
+h3 {
+    font-style: italic;
+    font-size: 18px;
+}
+
+hr { 
+    color: pink;
+    background-color: pink;
+    height: 3px;
+    border: 0;
+    width: 98%;
 }
 
 p {
-    color: white; 
+    color: pink; 
     padding: 20px 10px; 
+    text-align: justify; 
+}
+
+.footer{
+    padding: 5px;
+    text-align: center;
+    color: white; 
+    background-color: pink; 
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 30px;
+    margin: 0;
+    overflow: hidden;
 }
