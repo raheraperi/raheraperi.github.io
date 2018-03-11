@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 h3 {
-    color: pink; 
+    color: white; 
     font-family: "Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
 }
 
@@ -22,6 +22,8 @@ ul{
     list-style-type: none; 
     background-image: url(https://lh3.googleusercontent.com/mAKyy-43LZ5k7zulEH9uZGBk21x1CDp4iKYVgyoRkJnU-IeDFpRLlL--fg-dIGzOXtc7wBKd6lCj3Yoi_2K0UXNcfRsfMU9DhK4RIbhoDzMH9fCpuydBHTNbhG0a9sB_SVHsGkrV5g=w2400);
     padding: 40px;
+    align-content: center;
+    font-size: 30px;
 }
 
 a {
