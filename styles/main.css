@@ -7,6 +7,16 @@ html {
     box-sizing: inherit;
   }
 
+  .row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
 body {
     background-color: white;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
