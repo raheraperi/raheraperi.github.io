@@ -17,10 +17,13 @@ html {
     height: 300px;
 }
 
+
 body {
     background-color: white;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman";
-    padding: 10px;
+    padding: 40px;
+    overflow: visible;
+
 }
 
 /* Header/Blog Title */
@@ -51,7 +54,7 @@ ul {
     background-image: url(https://lh3.googleusercontent.com/mAKyy-43LZ5k7zulEH9uZGBk21x1CDp4iKYVgyoRkJnU-IeDFpRLlL--fg-dIGzOXtc7wBKd6lCj3Yoi_2K0UXNcfRsfMU9DhK4RIbhoDzMH9fCpuydBHTNbhG0a9sB_SVHsGkrV5g=w2400);
 }
 
-li {
+li .navbar{
     float: left;
 }
 
@@ -74,6 +77,10 @@ li a:hover:not(.active) {
     filter: alpha(opacity=30);
 }
 
+ol{
+    color: pink;
+    text-align: centre;
+}
 h1, h2, h3 {
     color: pink; 
     font-weight: bold; 
@@ -97,6 +104,7 @@ p {
     color: pink; 
     padding: 20px 10px; 
     text-align: justify; 
+    width: 80%;
 }
 
 .footer{
@@ -111,3 +119,5 @@ p {
     margin: 0;
     overflow: hidden;
 }
+
+
