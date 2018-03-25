@@ -1,97 +1,114 @@
 
-<!DOCTYPE html>
-<html>
-   
-<head>
-    <meta charset="utf-8">
-
-    <title>Grids Grids Grids</title>
-            
-            <link rel="stylesheet" type="text/css" href="../styles/main.css" />
-</head>
-
-    <body id="home">
-
-            <header>
-                <h1><em>Rāhera Codes</em></h1>
-                    <h2><em>Follow me on my EDA journey!</em></h2>
-            </header>
-
-                <div id="navbar">
-
-                    <ul>
-                        <li><a href="https://raheraperi.github.io/" target="_blank">Home</a></li>
-                        <li><a href="https://raheraperi.github.io/Blog/c1-reflection-blog.html" target="_blank">Reflections</a> </li> 
-                        <li><a href="https://raheraperi.github.io/Blog/c1-time-and-habits-blog.html" target="_blank">Time + Habits</a> </li> 
-                        <li> <a href="https://raheraperi.github.io/Blog/t2-html-css-dom-p1.html" target="_blank">Web Structure</a> </li> 
-                        <li> <a href="https://raheraperi.github.io/Blog/t2-html-css-dom-p2.html" target="_blank">Grids + Responsiveness</a> </li> 
-                        <li> <a href="https://raheraperi.github.io/Blog/c2-emotional-intelligence.html" target="_blank">Emotional Intelligence</a> </li> 
-
-                    </ul>
-
-                </div>
-  
-
-            <section class="container">
-                  
-                <article>
-                        <h2><em>Technical Blog - Grids and Responsive Web Design</em></h2>
-                            <h3>"It's all semantics..."</h3>
-
-                        <hr>
-                <div class="row">
-                    <div class= "column">
-        
-                        <h2><em>Why should you care about grid-based design?</em></h2>
-            
-                            <p>It’s a universal design method of laying out your webpage into a series of hypothetical rows and columns to form a grid.
-                                We use this grid to line up our design elements in a way that both makes sense for the user and is aesthetically appealing. 
-                                <br>
-                                <br>
-                                Another Important function of grids is that they create a responsive environment wherein when a page is resized or viewed on devices of different resolutions they don’t move or change - this creates consistency. 
-                                <br>
-                                <br>
-                                Typically, grids consist of columns, rows and the gaps between rows and columns (gutters). This creates a consistent experience, as a grid system enables the same size ratio between all your different design elements.
-                                Your grid system may also be a framework — either third party such as Bootstrap or created by you just for your project — that you use to enforce the grid via CSS.
+     <!DOCTYPE html>
+     <html lang="eng">
+       <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" conent="IE-edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Rāhera Codes</title>
+         <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+         <link rel="stylesheet" href="../styles/main.css">
+       </head>
+     <body>
+         <div class="container">
+           <div class="row">
+             <div class ="col-md-12 text-center font-weight-bold">
+                 <h1>Rāhera Codes</h1>
+                 <h2>Follow my EDA Journey!</h2>
+             </div>
+           <div class="row">
+             <div class ="col-md-12 text-center font-weight-bold">
+                <nav class="navbar navbar-default">
+                   <div class="container-fluid">
+                     <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>                        
+                       </button>
+                       <a class="navbar-brand" href="#">Rāhera Blogs</a>
+                     </div>
+                     <div class="collapse navbar-collapse" id="myNavbar">
+                       <ul class="nav navbar-nav">
+                         <li class="active"><a href="#">Home</a></li>
+                         <li class="dropdown">
+                           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultural<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                             <li><a href="#">Blog 1</a></li>
+                             <li><a href="#">Blog 2</a></li>
+                           </ul>
+                         </li>
+                         <li class="dropdown">
+                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
+                             <ul class="dropdown-menu">
+                               <li><a href="#">Blog 1</a></li>
+                               <li><a href="#">Blog 2</a></li>
+                             </ul>
+                           </li>
+                       </ul>
+                     </div>
+                   </div>
+                 </nav>
+             </div>
+             <div class="row">
+                 <div class="col-mid-12">
+                   <h3>Technical Blog - Grids and Responsive Web Design</h3>
+                       <h4>March 2018</h4>
+                 </div>
+             </div>
+             <hr>
+             <div class="row">
+                 <div class="col-md-4">
+                     <img class="center-block img-responsive" img src="../images/blog2.jpg">
+                 </div>
+                 <div class="col-md-8">
+                        <h3>Why should you care about grid-based design?</h3>
+                            <p class="text-justify">
+                            It’s a universal design method of laying out your webpage into a series of hypothetical rows and columns to form a grid.
+                            We use this grid to line up our design elements in a way that both makes sense for the user and is aesthetically appealing. 
+                            <br>
+                            Another Important function of grids is that they create a responsive environment wherein when a page is resized or viewed on devices of different resolutions they don’t move or change - this creates consistency. 
+                            <br>
+                            Typically, grids consist of columns, rows and the gaps between rows and columns (gutters). This creates a consistent experience, as a grid system enables the same size ratio between all your different design elements.
+                            Your grid system may also be a framework — either third party such as Bootstrap or created by you just for your project — that you use to enforce the grid via CSS.           
                             </p>
-                        <h2><em> What's all the hype about responsive web pages?</em></h2>
-
-                            <p>Responsive web page design is super important as it can significantly impact on the user experience. We want the user to have the best experience possible on whatever device thy might be using, whether it be a tablet, phone or laptop - meaning that we must design our web pages to adapt to different resolution sizes.
-                                <br>
-                                <br>
+             
+                        <h3>What's all the hype about responsive web pages?</h3>
+                            <p class="text-justify">Responsive web page design is super important as it can significantly impact on the user experience. We want the user to have the best experience possible on whatever device thy might be using, whether it be a tablet, phone or laptop - meaning that we must design our web pages to adapt to different resolution sizes.
                                 Interestingly, a 2015 study by Research New Zealand found that 70 per cent of participants had access to a smartphone, 72 per cent had access to a laptop and 57 per cent had access to a PC. Of the smartphone owners, one in two preferred using their smartphone for browsing the internet. We must take user accessibility into account when designing adaptive web pages.
-                                
                             </p>
-                    </div>
-                    <div class= "column">
-
-                        <h2><em>What the heck is semantic structure?</em></h2>
-                            <p>
-                                The phrase “it’s all just semantics” shrugs off the fact that it’s all just words and words don’t matter. Semantic markup, however, matters a lot!
-                                <br>
-                                <br>
-                                Using semantic markup is essentially a way of structuring HTML to reinforce the meaning of the content rather than what it looks like. This reflects the the fact that presentation and content are separate, i.e. HTML is used for structure and CSS for web design.
-                                <br>
-                                <br>
-                                When structuring our pages we need to observe the intuitive hierarchy of our markup. What I mean by this is that, much like writing an essay, we would start with our title or heading tag &lt;h1&gt;, including subheadings where necessary &lt;h2&gt;, &lt;h3&gt;and writing paragraphs &lt;p&gt; in the body of our essay. 
-                                <br>
-                                <br>
-                                Semantic markup means that HTML tags are never chosen based on the way they appear in a web browser — they’re chosen based on the importance and structure of the content.
-
+                        <h3>What the heck is semantic structure?</h3>
+                            <p class="text-justify">
+                            The phrase “it’s all just semantics” shrugs off the fact that it’s all just words and words don’t matter. Semantic markup, however, matters a lot!
+                            <br>
+                            Using semantic markup is essentially a way of structuring HTML to reinforce the meaning of the content rather than what it looks like. This reflects the the fact that presentation and content are separate, i.e. HTML is used for structure and CSS for web design.
+                            <br>
+                            When structuring our pages we need to observe the intuitive hierarchy of our markup. What I mean by this is that, much like writing an essay, we would start with our title or heading tag &lt;h1&gt;, including subheadings where necessary &lt;h2&gt;, &lt;h3&gt;and writing paragraphs &lt;p&gt; in the body of our essay. 
+                            <br>
+                            Semantic markup means that HTML tags are never chosen based on the way they appear in a web browser — they’re chosen based on the importance and structure of the content.
                             </p>
-
-                        <h2><em>Interesting stuff!</em></h2>
-                            <p>
-                                Grid structures seem like the bread and butter of responsive web design. I had a lot of breakthrough moments during the Udacity tutorial on grid structures - understanding how to create one but also how to structure your design elements within your grid. 
-                                <br>
-                                <br>
-                                I can’t wait to start using Bootsrap more for my grid frameworks. Seems like a handy tool for responsive web design, with predefined classes for easy layout as well as the option to use your own CSS stylesheet alongside it.
-                            </p>
-                
-                    </div>
-                </div>
-
-                </article>
-            </section>
-    </body>
-</html>
+                        <h3>Interesting stuff!</h3>
+                            <p class="text-justify">
+                            Grid structures seem like the bread and butter of responsive web design. I had a lot of breakthrough moments during the Udacity tutorial on grid structures - understanding how to create one but also how to structure your design elements within your grid. 
+                            <br>
+                            I can’t wait to start using Bootsrap more for my grid frameworks. Seems like a handy tool for responsive web design, with predefined classes for easy layout as well as the option to use your own CSS stylesheet alongside it.
+                            </p> 
+                 </div>
+             </div>
+           </div>  
+     
+     </body>
+     <!--Footer-->
+     <footer class="footer">
+           <div class="container">
+             <span class="text-muted">
+               <ul class="inline">
+                   <li>LinkedIn</li>
+                   <li>Instagram</li>
+                   <li>Facebook</li>
+               </ul>
+             </span>
+           </div>
+         </footer>
+     </html
+    
