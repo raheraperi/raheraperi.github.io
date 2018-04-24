@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" conent="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rāhera Codes</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+<body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+   <div class="container">
+     <div class="row">
+       <div class ="col-md-12 text-center font-weight-bold">
+           <h1>Rāhera Codes</h1>
+           <h2 class=>Follow my EDA Journey!</h2>
+       </div>
+     <div class="row">
+       <div class ="col-md-12 text-center font-weight-bold">
+          <nav class="navbar navbar-default">
+             <div class="container-fluid">
+               <div class="navbar-header">
+                 <a class="navbar-brand" href="https://raheraperi.github.io/">Rāhera Blogs</a>
+               </div>
+               <ul class="nav navbar-nav">
+                   <li class="active"><a href="#">Home</a></li>
+                   <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultural<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                       <li><a href="https://raheraperi.github.io/Blog/c1-reflection-blog.html">Fireside Chat</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c1-time-and-habits-blog.html">Time + Habits</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c3-meditation-process.html">Meditation</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c4-daily-mindfulness.html">Daily Mindfulness</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c5-self-confidence.html">Self Confidence</a></li>
+               </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                         <li><a href="https://raheraperi.github.io/Blog/t2-html-css-dom-p1.html">HTML, CSS + The DOM</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t2-html-css-dom-p2.html">Grids and Responsive Web Design</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t3-design-to-web-blog.html">Design to Web</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t4-javascript-basics.html">Introduction to JavaScript</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t5-problem-solving.html">Problem Solving</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t6-js-language.html">JavaScript Language</a></li>
+                       </ul>
+                     </li>
+                 </ul>
+               </div>
+             </div>
+           </nav>
+       </div>
+     </div
+        <div class="row">
+            <div class="col-mid-12">
+              <h3>Technical Blog - Introduction to JavaScript</h3>
+                  <h4>10 April 2018</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="center-block img-responsive" img src="../images/blog2.jpg">
+            </div>
+            <div class="col-md-8">
+                   <h3>Hello, non-tech friend. I'm going to teach you some of the basics of JavaScript syntax!</h3>
+        
+                   <h4>Parenthesis</h4>
+                       <p class="text-justify"> 
+                   Parenthesis are used for calling functions, to surround conditional statements, or for grouping to enforce Order of Operations.<br>
+                       <code>
+                               // Declaring a function<br>
+                                   function sayHello () {<br>
+                                   console.log('Hello world!')<br>
+                                   }<br>
+                                   <br>
+                                   // using a function <br>
+                                   sayHello() <br>
+                           </code>
+                           </p>
+                    
+                   <h4>Square Brackets</h4>
+                       <p class="text-justify">
+                   These are mostly used for accessing the properties of an Object (or the elements of an Array). In the following example, I'm acessing the third element 
+                           in my array using <code>myList[2]</code>. <br>
+                           <code>
+                               var mylist = [1,2,3,4];<br>
+                               alert(mylist[2]);<br>
+                           </code>
+                       </p>  
+
+                       <h4>Braces</h4> 
+                           <p class="text-justify"></p>
+                               Braces are used to enclose blocks of code (function definitions, conditional blocks, loops, etc). Here's an example from my Minesweeper game:<br>
+                               <code>
+                                    function startGame () { <br>
+                                    <br>
+                                    for (var i = 0; i < board.cells.length; i++) { <br>
+                                      board.cells[i].surroundingMines = countSurroundingMines(board.cells[i])<br>
+                                    }<br>
+                                    document.addEventListener('click', checkForWin)<br>
+                                    document.addEventListener('contextmenu', checkForWin)<br>
+                                    lib.initBoard()<br>
+                                  }<br>
+                               </code>
+                           </p>
+                           
+                       <h4>Single Quotes vs. Double Quotes</h4> 
+                       <p class="text-justify"></p>
+                          Strings should always be enclosed by quotation marks. Quoting style is up to the programmer, 
+                        and either style has no special semantics over the other. Some sources say that single quotes are 
+                           more common. <br>
+                           <code>
+                            'abc' === "abc"
+                           </code>
+                       </p>
+               </div>
+        </div>
+      </div>  
+
+</body>
+<!--Footer-->
+<footer class="footer">
+   <div class="container">
+     <span class="text-muted">
+         <ul class="inline text-center">
+             <li><a href="https://www.linkedin.com/in/rachael-peri-140864124">LinkedIn | </a></li>
+             <li><a href="https://instagram.com/raheraperi">Instagram | </a></li>
+             <li><a href="https://www.facebook.com/rachael.peri">Facebook</a></li>
+         </ul>
+     </span>
+   </div>
+ </footer>
+</html
