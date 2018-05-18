@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" conent="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rāhera Codes</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+<body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+   <div class="container">
+     <div class="row">
+       <div class ="col-md-12 text-center font-weight-bold">
+           <h1>Rāhera Codes</h1>
+           <h2 class=>Follow my EDA Journey!</h2>
+       </div>
+     <div class="row">
+       <div class ="col-md-12 text-center font-weight-bold">
+          <nav class="navbar navbar-default">
+             <div class="container-fluid">
+               <div class="navbar-header">
+                 <a class="navbar-brand" href="https://raheraperi.github.io/">Rāhera Blogs</a>
+               </div>
+               <ul class="nav navbar-nav">
+                   <li class="active"><a href="#">Home</a></li>
+                   <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultural<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                       <li><a href="https://raheraperi.github.io/Blog/c1-reflection-blog.html">Fireside Chat</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c1-time-and-habits-blog.html">Time + Habits</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c3-meditation-process.html">Meditation</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c4-daily-mindfulness.html">Daily Mindfulness</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c5-self-confidence.html">Self Confidence</a></li>
+                       <li><a href="https://raheraperi.github.io/Blog/c6-control.html">Control</a></li>
+               </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                         <li><a href="https://raheraperi.github.io/Blog/t2-html-css-dom-p1.html">HTML, CSS + The DOM</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t2-html-css-dom-p2.html">Grids and Responsive Web Design</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t3-design-to-web-blog.html">Design to Web</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t4-javascript-basics.html">Introduction to JavaScript</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t5-problem-solving.html">Problem Solving</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t6-js-language.html">JavaScript Language</a></li>
+                         <li><a href="https://raheraperi.github.io/Blog/t6-js-language.html">Scope</a></li>
+                       </ul>
+                     </li>
+                 </ul>
+               </div>
+             </div>
+           </nav>
+       </div>
+     </div
+        <div class="row">
+            <div class="col-mid-12">
+              <h3>Technical Blog - Scope</h3>
+                  <h4>18 May 2018</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="center-block img-responsive" img src="../images/blog2.jpg">
+            </div>
+            <div class="col-md-8">
+                   <h3>Hello, non-tech friend. I'm going to teach you what JavaScript scope is!</h3>
+                    <h4>Overview</h4>
+                    <p class="text-justify"> 
+                    Hackernoon describes Scope as 'the visibility of functions and variables in the different parts of your code during runtime'. 
+                        Variables are either global scoped or function scoped. That means that they either exist globally and can be accessed everywhere or in the boundaries 
+                    of the function in which they were declared.
+                        </p>
+                   <h4>Global Scope</h4>
+                       <p class="text-justify"> 
+                            Any variable declared outside of a function belongs to the global scope, and is therefore accessible from anywhere in your code.
+                       <code>
+                            var name = 'Rachael'; <br>
+                            <br>
+                            console.log(name); // logs 'Hammad' <br>
+                            <br>
+                            function logName() { <br>
+                                console.log(name); // 'name' is accessible here and everywhere else <br>
+                            } <br>
+                            <br>
+                            logName(); // logs 'Rachael'<br>
+                           </code>
+                           </p>
+                    
+                   <h4>Local Scope</h4>
+                       <p class="text-justify">
+                            Variables defined inside a function are in the local scope. And they have a different scope for every call of that function. 
+                        This means that variables having the same name can be used in different functions. This is because those variables are bound to their 
+                            respective functions, each having different scopes, and are not accessible in other functions.
+                       </p>  
+                       <code>
+                            // Global Scope <br>
+                            function someFunction() { <br>
+                                // Local Scope #1 <br>
+                                function someOtherFunction() { <br>
+                                    // Local Scope #2 <br>
+                                } <br>
+                            } <br>
+                            <br>
+                            // Global Scope <br>
+                            function anotherFunction() { <br>
+                                // Local Scope #3 <br>
+                            } <br>
+                            // Global Scope <br>
+                       </code>
+               </div>
+        </div>
+      </div>  
+
+</body>
+<!--Footer-->
+<footer class="footer">
+   <div class="container">
+     <span class="text-muted">
+         <ul class="inline text-center">
+             <li><a href="https://www.linkedin.com/in/rachael-peri-140864124">LinkedIn | </a></li>
+             <li><a href="https://instagram.com/raheraperi">Instagram | </a></li>
+             <li><a href="https://www.facebook.com/rachael.peri">Facebook</a></li>
+         </ul>
+     </span>
+   </div>
+ </footer>
+</html
